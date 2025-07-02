@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="git-guide">
+      <h2>🧠 Git & GitHub Guide</h2>
+      <pre><code>
+<span class="headline">Set up git:</span>
+git --version
+git config --global user.name
+git config --global user.email
+git config --global init.defaultBranch (one time for default set from master to main)
+
+<span class="headline">After creating project:</span>
+git init (have to do only one time)
+ls -a or lsd -a -tree
+rm -rf .git (completly delete git from the project)
+git status
+git add . (can add individully like: git add index.html)
+git commit -m "commit like a comment"
+git log (shows the commits you have done previously) (??press q to escape??)
+
+<span class="headline">Push an existing repository from the command line:</span>
+git remote add origin https://github.com/hasibur049/task-tracker.git
+git branch -M main
+git push -u origin main
+token (get token from .env file)
+git pull (from remote repo)
+
+<span class="headline">Shortcut of commit :</span>
+git commit -am "dont have to do add . manunally for this shortcut"
+git add index.html && git commit -m "added new feature"
+
+<span class="headline">SSH keys:</span>
+<span class="headline">Git clone:</span>
+<span class="headline">Branching:</span>
+<span class="headline">Pull request:</span>
+<span class="headline">Merging:</span>
+</code> 
+</pre>
+      <section class="video-source">
+        <h3>🎥 Video Source</h3>
+        Watch the video here:
+        <a href="https://youtu.be/vA5TTz6BXhY?si=u40MMy__yF6MRkUQ" target="_blank" rel="noopener noreferrer">
+          https://youtu.be/vA5TTz6BXhY?si=u40MMy__yF6MRkUQ
+        </a>
+      </section>
+
+
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ff6f00;   /* Bright orange for whole page */
+  color: white;                /* White text for contrast */
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #ff6f00;        /* Same orange as body */
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: none;           /* Remove shadow so no white glow */
+  color: white;
+}
+
+pre {
+  background-color: #1e1e1e;  /* Keep code block dark */
+  color: #dcdcdc;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  overflow-x: auto;
+  line-height: 1.6;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+}
+
+/* Style mini-section headlines */
+.headline {
+  display: block;
+  color: #ffcc00;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.git-guide h2 {
+  color: #fff;
+}
+
+.video-source h3 {
+  color: #fff;
+}
+
+.video-source a {
+  color: #ffe082;
+  text-decoration: underline;
+}
+
+.video-source a:hover {
+  color: #ffd54f;
+}
